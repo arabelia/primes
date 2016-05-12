@@ -24,7 +24,7 @@ header{
 	color:#fff;
 }
 .capa{
-	background:rgba(0,0,0,0.8);
+	background:rgba(0,0,0,0.5);
 	height: 100%;
 }
 .menu ul{
@@ -79,6 +79,7 @@ header{
 .portafolio .lista{
 	margin: 2% 0;
 	background: #fff;
+	border: 1em  solid #fff;
 }
 .portafolio img{
 	width: 100%;
@@ -96,19 +97,13 @@ header{
 .descripcion .text{
 	padding-left:12%;
 }
-@media (max-width: 420px) and (max-width: 411px) and (max-width: 360px){
-	header{height: 500px;}
-	.menu{float: left;}
-	.menu ul{margin: 0px;}
-	.menu ul li a{padding: 0px;}
-	.descripcion .icon i{font-size: 25px;}
-	}
-}
+
 /*frase*/
-.frase {height: 320px; background-image: url(../img/background/city.jpg); background-size: cover;}
-.frase p{margin-top: 6em; padding: .5em 2em;}
+/*.frase {height: 350px; background: #111;}*/
+.frase {height: 350px; background-image: url(../img/background/city.jpg); background-size: cover;   background-position: 0em -3em;}
+.frase p{margin-top: 5em; padding: .5em 2em 1em;}
 /*paquetes*/
-.tipos-pack li{width: 270px;  display: inline-block; padding: 1em 1em 2em; margin: .5em 1em;}
+.tipos-pack li{width: 250px;  display: inline-block; padding: 1em 1em 2em; margin: .5em 1em;}
 .tipos-pack p:first-of-type{padding: 2em 0; margin-top: -10px;}
 .tipos-pack h3{padding: 1em 0;}
 /*customer*/
@@ -116,11 +111,20 @@ header{
 .customer p{padding: 1em 5em;}
 .customer span{font-weight: bold;}
 /*contacto*/
-.capa {	background: #111;opacity: .7; margin: 0 -1em;}
+.redes{color: #4C4C56;}
+/*.capa2 {	background: #111;opacity: .7; margin: 0 -1em;}*/
 .contacto{background-image: url(../img/background/contactus.jpg); background-size: cover;}
 .contacto a{text-decoration: none; padding: 10px 15px; }
+.ubicacion{font-size: 20px;}
 .redes i{width: 50px;}
 .pie{padding: 1em;}
 .boton-trans{padding: 10px 15px; text-decoration: none; background: transparent;}
 .boton{padding: 15px 25px; text-decoration: none; margin-top: 2em;}
 
+@media (max-width: 420px) and (max-width: 411px) and (max-width: 360px){
+	header{height: 500px;}
+	.menu{float: left;}
+	.menu ul{margin: 0px;}
+	.menu ul li a{padding: 0px;}
+	.descripcion .icon i{font-size: 25px;}
+}
