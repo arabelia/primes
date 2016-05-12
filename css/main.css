@@ -120,6 +120,7 @@ header{
 .pie{padding: 1em;}
 .boton-trans{padding: 10px 15px; text-decoration: none; background: transparent;}
 .boton{padding: 15px 25px; text-decoration: none; margin-top: 2em;}
+.boton:hover{color: #fff; text-decoration: none;}
 
 @media (max-width: 420px) and (max-width: 411px) and (max-width: 360px){
 	header{height: 500px;}
