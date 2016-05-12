@@ -1,0 +1,108 @@
+/**{outline: 1px solid blue}*/
+body{
+	font-family: font-family: 'Dosis', sans-serif;
+}
+h1,h2,h3,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.btn{
+	margin: 10px;
+}
+i{
+	color:#c2e9fd;
+	font-size: 50px;
+}
+/*EMPIEZA HEADER*/
+header{
+	background: url(../img/background/hero.jpg);
+	background-attachment: fixed;
+	height: 700px;
+	background-size: cover;
+	background-position:top;
+	color:#fff;
+}
+.capa{
+	background:rgba(0,0,0,0.8);
+	height: 100%;
+}
+.menu ul{
+	margin-top:20px;
+}
+.menu ul li a{
+	color:#fff;
+	padding: 10px;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color:#c2e9fd;
+}
+.texto{
+	margin-top: 150px;
+}
+/*INICIO SERVICIOS*/
+.servicios{
+	text-align: center;
+}
+.serv{
+	padding: 5%;
+}
+.service{
+	margin: 2% 0;
+}
+/*INICIO DE TELEVISOR (TV)! */
+.tv{
+	background:#dee1e8;
+	height: 30%;
+}
+.tv img{
+	width: 80%;
+	margin: 0 auto;
+}
+/*PORTAFOLIO*/
+.portafolio{
+	text-align: center;
+	background:#dee1e8;
+}
+.portafolio .menu-line a{
+	padding: 1%;
+	color:#000;
+	background: #fff;
+	text-decoration: none;
+}
+.portafolio .menu-line a:hover{
+	padding: 1%;
+	color:#fff;
+	background: #c2e9fd;
+}
+.portafolio .lista{
+	margin: 2% 0;
+	background: #fff;
+}
+.portafolio img{
+	width: 100%;
+}
+/*INICIO DE DESCRIPCION*/
+.descripcion{
+	padding: 5%;
+}
+.descripcion .icon{
+	padding-right:2%;
+}
+.descripcion .icon i{
+	font-size: 35px;
+}
+.descripcion .text{
+	padding-left:12%;
+}
+@media (max-width: 420px) and (max-width: 411px) and (max-width: 360px){
+	header{height: 500px;}
+	.menu{float: left;}
+	.menu ul{margin: 0px;}
+	.menu ul li a{padding: 0px;}
+	.descripcion .icon i{font-size: 25px;}
+	}
+}
+
+
