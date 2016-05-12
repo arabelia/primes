@@ -104,5 +104,23 @@ header{
 	.descripcion .icon i{font-size: 25px;}
 	}
 }
-
+/*frase*/
+.frase {height: 320px; background-image: url(../img/background/city.jpg); background-size: cover;}
+.frase p{margin-top: 6em; padding: .5em 2em;}
+/*paquetes*/
+.tipos-pack li{width: 270px;  display: inline-block; padding: 1em 1em 2em; margin: .5em 1em;}
+.tipos-pack p:first-of-type{padding: 2em 0; margin-top: -10px;}
+.tipos-pack h3{padding: 1em 0;}
+/*customer*/
+.customer img{width: 150px; border-radius: 100px; margin: 1em;}
+.customer p{padding: 1em 5em;}
+.customer span{font-weight: bold;}
+/*contacto*/
+.capa {	background: #111;opacity: .7; margin: 0 -1em;}
+.contacto{background-image: url(../img/background/contactus.jpg); background-size: cover;}
+.contacto a{text-decoration: none; padding: 10px 15px; }
+.redes i{width: 50px;}
+.pie{padding: 1em;}
+.boton-trans{padding: 10px 15px; text-decoration: none; background: transparent;}
+.boton{padding: 15px 25px; text-decoration: none; margin-top: 2em;}
 
